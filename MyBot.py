@@ -30,7 +30,7 @@ class InstagramBot:
     def CloseBrowser(self):
         bot = self.bot
         #before it closes the browser it redirects to my profile
-        #you can comment those two lines if you want
+        #you can comment those two lines if you want (34,35)
         bot.get('https://www.instagram.com/mina.aziz99/')
         time.sleep(2)
         bot.close()
